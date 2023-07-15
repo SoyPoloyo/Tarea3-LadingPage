@@ -1,107 +1,162 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Empresa Estudio 3D - Dibujeliox</title>
-  <link rel="icon" href="assets/favicon.png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="hero-image">
-    <h1 class="display-4">Empresa Estudio 3D</h1>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empresa Estudio 3D - Dibujeliox</title>
+    <link rel="icon" href="assets/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+ 
+  <body>
+    <header class="hero-image">
+      <h1 class="display-4">Empresa Estudio 3D</h1>
+    </header>
 
-  <div class="container mt-5">
-    <div class="about-section">
-      <h2 class="text-center mb-4">Acerca de Dibujeliox</h2>
-      <p>En Dibujeliox, somos un Estudio 3D especializado en la creación de imágenes y videos de alta calidad. Nuestro equipo de expertos trabaja en la producción de contenido digital creativo y atractivo para diversos sectores y aplicaciones.</p>
+    <div class="container mt-5">
+      <div class="about-section">
+        <h2 class="text-center mb-4">Acerca de Dibujeliox</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <p>
+              En Dibujeliox, somos un Estudio 3D especializado en la creación de
+              imágenes y videos de alta calidad. Nuestro equipo de expertos
+              trabaja en la producción de contenido digital creativo y atractivo
+              para diversos sectores y aplicaciones.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-center my-4">Servicios</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card bg-primary text-white mb-4">
+            <div class="card-body service-card">
+              <i class="fas fa-cube service-icon"></i>
+              <h4 class="card-title">Modelado 3D Personalizado</h4>
+              <p class="card-text">
+                Creación de modelos 3D personalizados para proyectos de
+                arquitectura, diseño de productos y más.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card bg-info text-white mb-4">
+            <div class="card-body service-card">
+              <i class="fas fa-film service-icon"></i>
+              <h4 class="card-title">Animaciones 3D</h4>
+              <p class="card-text">
+                Producción de animaciones 3D para publicidad, presentaciones
+                empresariales y material educativo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card bg-success text-white mb-4">
+            <div class="card-body service-card">
+              <i class="fas fa-vr-cardboard service-icon"></i>
+              <h4 class="card-title">Realidad Virtual y Aumentada</h4>
+              <p class="card-text">
+                Experiencia inmersiva para juegos, simulaciones y tours
+                virtuales.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="subscription-section">
+        <h2 class="text-center mb-4">Suscríbete a nuestro boletín</h2>
+        <p>
+          Recibe las últimas noticias y actualizaciones de Dibujeliox
+          directamente en tu bandeja de entrada.
+        </p>
+        <form class="mt-4">
+          <div class="form-row justify-content-center">
+            <div class="col-sm-6 col-md-4 mb-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Ingresa tu correo electrónico"
+                required
+              />
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary">Suscribirse</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="video-section">
+        <h2 class="text-center mb-4">
+          Diseñamos tu hogar de la manera más moderna
+        </h2>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/xQNm7jViA8A"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="map-section">
+        <div class="container-fluid">
+          <h2 class="text-center mb-4">Ubicación de Dibujeliox</h2>
+          <p class="map-description">
+            ¡Ven a visitarnos en nuestra ubicación en Curridabat, Costa Rica!
+          </p>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15720.867970119754!2d-84.03500919999999!3d9.9158777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3bf9923854d%3A0x6902098cdd1bda50!2sSan%20Jos%C3%A9%2C%20Curridabat!5e0!3m2!1ses-419!2scr!4v1689448100024!5m2!1ses-419!2scr"
+              width="100%"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="sponsors-section">
+        <h2 class="text-center mb-4">Patrocinadores</h2>
+        <div class="sponsors-logos d-flex justify-content-center">
+          <img src="assets/logo.png" alt="Logo 1" />
+          <img src="assets/logo2.png" alt="Logo 2" />
+          <img src="assets/logo3.png" alt="Logo 3" />
+        </div>
+      </div>
     </div>
 
-    <h2 class="text-center my-4">Servicios</h2>
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card bg-primary text-white mb-4">
-          <div class="card-body service-card">
-            <i class="fas fa-cube service-icon"></i>
-            <h4 class="card-title">Modelado 3D Personalizado</h4>
-            <p class="card-text">Creación de modelos 3D personalizados para proyectos de arquitectura, diseño de productos y más.</p>
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-6">
+            <h2 class="mb-4">Contacto</h2>
+            <p>Correo: info@dibujeliox.com</p>
+            <p>Teléfono: +123456789</p>
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="card bg-info text-white mb-4">
-          <div class="card-body service-card">
-            <i class="fas fa-film service-icon"></i>
-            <h4 class="card-title">Animaciones 3D</h4>
-            <p class="card-text">Producción de animaciones 3D para publicidad, presentaciones empresariales y material educativo.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-success text-white mb-4">
-          <div class="card-body service-card">
-            <i class="fas fa-vr-cardboard service-icon"></i>
-            <h4 class="card-title">Realidad Virtual y Aumentada</h4>
-            <p class="card-text">Experiencia inmersiva para juegos, simulaciones y tours virtuales.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="subscription-section">
-      <h2 class="text-center mb-4">Suscríbete a nuestro boletín</h2>
-      <p>Recibe las últimas noticias y actualizaciones de Dibujeliox directamente en tu bandeja de entrada.</p>
-      <form class="mt-4">
-        <div class="form-row justify-content-center">
-          <div class="col-sm-6 col-md-4 mb-3">
-            <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico" required>
-          </div>
-          <div class="col-auto">
-            <button type="submit" class="btn btn-primary">Suscribirse</button>
-          </div>
-        </div>
-      </form>
-    </div>
-    
-    <div class="video-section">
-      <h2 class="text-center mb-4">Diseñamos tu hogar de la manera más moderna</h2>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/xQNm7jViA8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-    </div>
-    
-    <div class="map-section">
-      <h2 class="text-center mb-4">Ubicación de Dibujeliox</h2>
-      <p class="map-description">¡Ven a visitarnos en nuestra ubicación en Curridabat, Costa Rica!</p>
-      <div >
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15720.867970119754!2d-84.03500919999999!3d9.9158777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3bf9923854d%3A0x6902098cdd1bda50!2sSan%20Jos%C3%A9%2C%20Curridabat!5e0!3m2!1ses-419!2scr!4v1689448100024!5m2!1ses-419!2scr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </div>
-    
-    <div class="sponsors-section">
-      <h2 class="text-center mb-4">Patrocinadores</h2>
-      <div class="sponsors-logos d-flex justify-content-center">
-        <img src="assets/logo.png" alt="Logo 1">
-        <img src="assets/logo2.png" alt="Logo 2">
-        <img src="assets/logo3.png" alt="Logo 3">
-      </div>
-    </div>
-  </div>
+    </footer>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-sm-6">
-          <h2 class="mb-4">Contacto</h2>
-          <p>Correo: info@dibujeliox.com</p>
-          <p>Teléfono: +123456789</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/a4a75e3e00.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/a4a75e3e00.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
